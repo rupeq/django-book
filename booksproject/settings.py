@@ -81,15 +81,16 @@ REST_FRAMEWORK = {
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
 
 DATABASES = {
-        'default': {
+    'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'BookDB',
-        'USER': 'postgres',
-        'PASSWORD': '123456',
-        'HOST': 'localhost',
-        'PORT': 5432,
-        }
+        'NAME': 'postgres',
+        'USER' : 'postgres',
+        'PASSWORD' : '123456',
+        'HOST' : 'db',
+        'PORT' : '5432',
+    }
 }
+
 
 
 # Password validation
