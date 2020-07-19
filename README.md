@@ -1,7 +1,7 @@
-# django-book
+# USED
 
-- Docker
-- Python & DRF
+- Docker, docker-compose
+- Python, DRF
 
 # URLS
 
