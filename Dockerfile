@@ -8,3 +8,5 @@ COPY . /code/
 RUN pip install pipenv
 COPY Pipfile Pipfile.lock /code/
 RUN pipenv install --system
+
+CMD ["sh", "entrypoint.sh"]
